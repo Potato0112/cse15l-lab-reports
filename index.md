@@ -5,8 +5,6 @@
 # Radish
 
 ## Beet
-
-<body style="background-color:powderblue;">
   
 [Link](https://en.wikipedia.org/wiki/Potato) <br>
 
