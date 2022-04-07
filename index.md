@@ -8,7 +8,7 @@
   
 [Link](https://en.wikipedia.org/wiki/Potato) <br>
 
-![Image](https://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg)
+![Image](https://i.redd.it/s81s9n51jtz71.jpg)
 
 * ginger
 * garlic
