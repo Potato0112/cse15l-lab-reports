@@ -1,3 +1,12 @@
-CSE 15L Lab Report 1
+# CSE 15L Lab Report 1
+
+# Step 1: Installing VScode
+1. go to the VScode website
+2. download VScode 
+3. create cse15L folder somewhere on computer
+4. go into terminal in VScode and cd to cse15L folder
+5. should look like this
+
+![Image](Screenshot 2022-03-31 082547.png)
 
 
