@@ -5,7 +5,7 @@
 2. download VScode 
 3. create cse15L folder somewhere on computer
 4. go into terminal in VScode and cd to cse15L folder
-5. should look like this:
+5. should look like this(disregard code shown):
 
 ![Image](screen1.png)
 
