@@ -12,7 +12,7 @@
 # Step 2: Remotely Connecting
 1. install openSSH
 2. find your cse15l account [here](https://sdacs.ucsd.edu/~icc/index.php)
-3. open terminal in VScode and type: ```$ ssh cs15lsp22zz@ieng6.ucsd.edu ``` (NOTE: change 2 letters before "@" to ones shown in account lookup)
+3. open terminal in VScode and type: ```$ ssh cs15lsp22zz@ieng6.ucsd.edu ``` (NOTE: change letters after "2" and before "@" to ones shown in account lookup)
 4. when prompted, type "yes"
 5. now the the computer is connected to a computer in the CSE basement and commands can be remotely run
 
@@ -38,5 +38,45 @@ class WhereAmI {
 }
 
 ```
+3. make sure java is installed and run using ```javac``` and ```java```
+4. transfer this file to basement computer using ```scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/```
+5. enter password for your account
+6. ssh into basement computer and use ```ls``` which should show the transfered file
+7. run the file while logged into basement computer using ```javac``` and ```java```
 
+![Image](screen4.png)
+<img src="screen4.2.png" width="601" height="287">
+
+# Step 5: SSH Keys
+This step will allow the basement computer to recognize your specific computer so you can get access without entering a password everytime.
+1. run on your computer: 
+```
+# on client (your computer)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+```
+**LEAVE PASSPHRASE EMPTY**
+```
+Enter same passphrase again: 
+Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
+Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+
+```
+<img src="screen9.png">
+<img sec="screen5.png" width="417" height="380">
 
