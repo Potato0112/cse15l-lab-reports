@@ -27,13 +27,16 @@
 # Step 4: Move files over ssh using scp
 1. open terminal on client computer and type ```scp```
 2. make local file called ```WhereAmI.java``` and put
-```  public static void main(String[] args) {
+```  
+class WhereAmI {
+  public static void main(String[] args) {
     System.out.println(System.getProperty("os.name"));
     System.out.println(System.getProperty("user.name"));
     System.out.println(System.getProperty("user.home"));
     System.out.println(System.getProperty("user.dir"));
   }
 }
+
 ```
 
 
