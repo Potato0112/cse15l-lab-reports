@@ -77,6 +77,19 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
-<img src="screen9.png">
-<img sec="screen5.png" width="417" height="380">
+<img src="screen9.png"> <br/>
+<img src="screen4.2.png" width="588" height="465">
 
+2. record the 3 letters that show up at the top of the picture (in this case it's "RSA")
+3. to set up windows, go to command prompt and run as administrator
+4. type ```ssh-add /Users/**your name**/.ssh/id_**the 3 letters as lowercase**```
+<img src="screen7.jpg">
+
+# Step 6: Make Remote Running Easier
+This is the last step and is mostly a test to see if all the previous work functions correctly
+1. ssh into basement computer and search directories using ```$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"```
+2. run multiple commands in one line by separating them using semi colons ```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
+**NOTE: THERE ARE NO OTHER FILES SO ```OtherMain.java``` DOESN'T EXIST YET**
+3. up arrow will bring back previous commands
+
+Finished!
