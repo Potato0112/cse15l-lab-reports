@@ -92,6 +92,6 @@ This is the last step and is mostly a test to see if all the previous work funct
 **NOTE: THERE ARE NO OTHER FILES SO ```OtherMain.java``` DOESN'T EXIST YET**
 3. up arrow will bring back previous commands
 <img src="screen6.png">
-<img src="scree6.2.png">
+<img src="screen6.2.png">
 
 Finished!
