@@ -91,7 +91,7 @@ This is the last step and is mostly a test to see if all the previous work funct
 2. run multiple commands in one line by separating them using semi colons ```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 **NOTE: THERE ARE NO OTHER FILES SO ```OtherMain.java``` DOESN'T EXIST YET**
 3. up arrow will bring back previous commands
-<img src="screen6.png">
+<img src="screen6.png" width="541" height="386">
 <img src="screen6.2.png">
 
 Finished!
