@@ -8,7 +8,6 @@
 5. should look like this(disregard code shown):
 ![Image](screenrev1.png)
 ![Image](screenrev2.png)
-![Image](screen1.png)
 
 # Step 2: Remotely Connecting
 1. install openSSH
