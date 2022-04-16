@@ -82,7 +82,7 @@ The key's randomart image is:
 
 2. record the 3 letters that show up at the top of the picture (in this case it's "RSA")
 3. to set up windows, go to command prompt and run as administrator
-4. type ```ssh-add /Users/**your name**/.ssh/id_ **the 3 letters as lowercase** ```
+4. type ```ssh-add /Users/**your name**/.ssh/id_**the 3 letters as lowercase**```
 <img src="screen7.jpg">
 
 # Step 6: Make Remote Running Easier
