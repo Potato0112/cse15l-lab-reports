@@ -16,6 +16,7 @@
 4. when prompted, type "yes"
 5. now the the computer is connected to a computer in the CSE basement and commands can be remotely run
 
+![Image](screenrev3.png)
 ![Image](screen2.png)
 
 # Step 3: Run Some Commands
