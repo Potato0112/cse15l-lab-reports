@@ -12,7 +12,7 @@
 # Step 2: Remotely Connecting
 1. install openSSH
 2. find your cse15l account [here](https://sdacs.ucsd.edu/~icc/index.php)
-3. open terminal in VScode and type: ```$ ssh cs15lsp22zz@ieng6.ucsd.edu ``` (NOTE: change letters after "2" and before "@" to ones shown in account lookup)
+3. open terminal in VScode and type: ```$ ssh cs15lsp22zz@ieng6.ucsd.edu ``` (NOTE: change letters after "22" and before "@" to ones shown in account lookup)
 4. when prompted, type "yes"
 5. now the the computer is connected to a computer in the CSE basement and commands can be remotely run
 
