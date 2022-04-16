@@ -36,7 +36,6 @@ class WhereAmI {
     System.out.println(System.getProperty("user.dir"));
   }
 }
-
 ```
 3. make sure java is installed and run using ```javac``` and ```java```
 4. transfer this file to basement computer using ```scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/```
