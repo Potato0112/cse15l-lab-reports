@@ -34,3 +34,5 @@ In this more indepth look at the output, the values for `openBracket`, `closeBra
 ![image](lab2images/wrongBracktest-beforeOutput.png) <br>
 The symptom caused by the failure inducing input is nearly identical to Fix 2. From the indepth output, when there are no more `[]` left in the string, searching for the next `]` using `markdown.indexOf(closeBracket)` returns -1 and because `currentIndex`'s value is updated by the index of `closeBracket`, -1+1 is perpetually 0 and lower than `markdown.length()` thus creating an infinite `while` loop. This can be fixed by checking if the `openBracket` or `closeBracket` are set to -1 and if so, break out of the loop.
 ![image](lab2images/wrongBracktest-afterOutputSimplified.png) <br>
+
+Finished!
