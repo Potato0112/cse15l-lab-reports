@@ -6,7 +6,7 @@
 3. create cse15L folder somewhere on computer
 4. go into terminal in VScode and cd to cse15L folder
 5. should look like this(disregard code shown):
-![Image](screenrev1.png)
+![Image](images/screenrev1.png)
 ![Image](screenrev2.png)
 
 # Step 2: Remotely Connecting
