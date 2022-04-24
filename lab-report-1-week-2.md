@@ -7,7 +7,7 @@
 4. go into terminal in VScode and cd to cse15L folder
 5. should look like this(disregard code shown):
 ![Image](images/screenrev1.png)
-![Image](screenrev2.png)
+![Image](images/screenrev2.png)
 
 # Step 2: Remotely Connecting
 1. install openSSH
@@ -16,14 +16,14 @@
 4. when prompted, type "yes"
 5. now the the computer is connected to a computer in the CSE basement and commands can be remotely run
 
-![Image](screenrev3.png)
-![Image](screen2.png)
+![Image](images/screenrev3.png)
+![Image](images/screen2.png)
 
 # Step 3: Run Some Commands
 1. in terminal, type in "cd", "ls", "pwd" "mkdir" and "cp" on local computer and after sshing into basement computer
 2. record any errors that occur
 
-![Image](screen3.png)
+![Image](images/screen3.png)
 
 # Step 4: Move files over ssh using scp
 1. open terminal on client computer and type ```scp```
@@ -44,8 +44,8 @@ class WhereAmI {
 6. ssh into basement computer and use ```ls``` which should show the transfered file
 7. run the file while logged into basement computer using ```javac``` and ```java```
 
-![Image](screen4.png)
-<img src="screen4.2.png" width="601" height="287">
+![Image](images/screen4.png)
+<img src="images/screen4.2.png" width="601" height="287">
 
 # Step 5: SSH Keys
 This step will allow the basement computer to recognize your specific computer so you can get access without entering a password everytime.
@@ -77,13 +77,13 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
-<img src="screen9.png"> <br/>
-<img src="screen4.2.png" width="588" height="465">
+<img src="images/images/screen9.png"> <br/>
+<img src="images/images/screen4.2.png" width="588" height="465">
 
 2. record the 3 letters that show up at the top of the picture (in this case it's "RSA")
 3. to set up windows, go to command prompt and run as administrator
 4. type ```ssh-add /Users/**your name**/.ssh/id_**the 3 letters as lowercase**```
-<img src="screen7.jpg">
+<img src="images/screen7.jpg">
 
 # Step 6: Make Remote Running Easier
 This is the last step and is mostly a test to see if all the previous work functions correctly
@@ -91,7 +91,7 @@ This is the last step and is mostly a test to see if all the previous work funct
 2. run multiple commands in one line by separating them using semi colons ```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
 **NOTE: THERE ARE NO OTHER FILES SO ```OtherMain.java``` DOESN'T EXIST YET**
 3. up arrow will bring back previous commands
-<img src="screen6.png" width="846" height="386">
-<img src="screen6.2.png">
+<img src="images/screen6.png" width="846" height="386">
+<img src="images/screen6.2.png">
 
 Finished!
