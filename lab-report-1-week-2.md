@@ -77,8 +77,8 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
-<img src="images/images/screen9.png"> <br/>
-<img src="images/images/screen4.2.png" width="588" height="465">
+<img src="images/screen9.png"> <br/>
+<img src="images/screen4.2.png" width="588" height="465">
 
 2. record the 3 letters that show up at the top of the picture (in this case it's "RSA")
 3. to set up windows, go to command prompt and run as administrator
