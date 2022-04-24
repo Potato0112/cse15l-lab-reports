@@ -9,7 +9,7 @@ The test file that caused this problem can be found [here](https://github.com/Po
 The symptom of the bug is that non-link type inputs such as images and pdfs are being included in the output. <br>
 ![image](lab2images/notlinktest-beforeOutput.png) <br>
 The symptom caused by the failure inducing input is pretty easy to identify. The code has not way of differentiating types of inputs so if `[]` and `()` syntax is correct, the `(content)` will be included regardless of type. This can be fixed by extracting the file name string between the `()` and checking if it contains any non link extensions such as `.png `, `.jpg`, `.jpeg`, or `.pdf` stored in an array of non-link extensions. <br>
-![image](lab2images/notlinktest-afterOutputSimplified.png) <br>
+![image](lab2images/notlinktest-afterOutputSimplified.png)
 
 ### Fix 2: Ignoring Invalid `()` Causing Infinite Loops
 The second fix invloves skipping over any input that does't contain `()` around the link.
