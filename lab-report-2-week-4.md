@@ -11,10 +11,21 @@ The symptom of the bug is that non-link type inputs such as images and pdfs are 
 The symptom caused by the failure inducing input is pretty easy to identify. The code has not way of differentiating types of inputs so if `[]` and `()` syntax is correct, the `(content)` will be included regardless of type. This can be fixed by extracting the file name string between the `()` and checking if it contains any non link extensions such as `.png `, `.jpg`, `.jpeg`, or `.pdf` stored in an array of non-link extensions.
 ![image](lab2images/notlinktest-afterOutputSimplified.png) <br>
 
-### Fix 2: Ignoring Invalid `[]` Causing Infinite Loops
-The second fix involves skipping over any input that doesn't contain `[]` around the link name.
+### Fix 2: Ignoring Invalid `()` Causing Infinite Loops
+The second fix invloves skipping over any input that does't contain `()` around the link.
+![image](lab2images/wrongParentest-gitChange.png) <br>
+The test file that caused this problem can be found [here](https://github.com/Potato0112/markdown-parser/blob/main/wrongParensyntax.md). <br>
+![image](lab2images/wrongParentest-errorfile.png) <br>
+The symptom of the bug is an infinite loop reading the first line.
+![image](lab2images/wrongParentest-beforeOutputSimplified.png) <br>
+Using print statements, it is clear that `openBracket`, `closeBracket`, `openParen`, and `closeParen` are being assigned the same values.
+![image](lab2images/wrongParentest-beforeOutput.png) <br>
+
+
+### Fix 3: Ignoring Invalid `[]` Causing Infinite Loops
+The final fix involves skipping over any input that doesn't contain `[]` around the link name.
 ![image](lab2images/wrongBracktest-gitChange.png) <br>
-The test file that caused this problem can be found[here](https://github.com/Potato0112/markdown-parser/blob/main/wrongBracksyntax.md). <br>
+The test file that caused this problem can be found [here](https://github.com/Potato0112/markdown-parser/blob/main/wrongBracksyntax.md). <br>
 ![image](lab2images/wrongBracktest-errorfile.png) <br>
 The symptom of the bug is that an infinite loop reading the same first line over and over again.
 ![image](lab2images/wrongBracktest-beforeOutputSimplified.png) <br>
