@@ -12,4 +12,5 @@ Go to the search bar and from the drop down, select the option that ends with `~
 ![Image](lab3images/select-config-path(4).png) <br>
 Edit the `config` file by changing the `Host` name to something shorter like `ieng6`. As you can see, after changing the `Host` name, it's possible to use the new name to ssh into the server using `ssh ieng6`. <br>
 ![Image](lab3images/simple-login(5).png) <br>
-It is also possible to use the new simplified name to move files from 
+It is also possible to use the new simplified name to move files to the server using `scp (FILE NAME) ieng6`. <br>
+![Image](lab3images/scp-simplified(6).png) <br>
