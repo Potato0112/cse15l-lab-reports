@@ -14,3 +14,5 @@ Edit the `config` file by changing the `Host` name to something shorter like `ie
 ![Image](lab3images/simple-login(5).png) <br>
 It is also possible to use the new simplified name to move files to the server using `scp (FILE NAME) ieng6`. <br>
 ![Image](lab3images/scp-simplified(6).png) <br>
+##Setup Github Access from ieng6
+The next task involves adding a key for Github.
