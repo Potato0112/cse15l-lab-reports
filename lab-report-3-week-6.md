@@ -16,3 +16,4 @@ It is also possible to use the new simplified name to move files to the server u
 ![Image](lab3images/scp-simplified(6).png) <br>
 ##Setup Github Access from ieng6
 The next task involves adding a key for Github.
+The
