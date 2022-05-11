@@ -16,4 +16,11 @@ It is also possible to use the new simplified name to move files to the server u
 ![Image](lab3images/scp-simplified(6).png) <br>
 ##Setup Github Access from ieng6
 The next task involves adding a key for Github.
-The
+The first step is to copy the public key and paste it into github. In the top right of the home page, click the profile picture, click the ssh tab on the left, click the **New SSH Key** button, name the key, paste the public key, and save. <br>
+![Image](lab3images/ssh-public-on-git(9).png) <br>
+Now that the key is saved, find the private key's location. The key is located inside the `.ssh` folder in the `id_rsa` file. Typing `more id_rsa` will reveal what the key is so that will not be done for privacy.
+![Image](lab3images/ssh-private-key-loc(12).png)
+The next step is to log into the ieng6 server to commit and push a change to github. For window's users, it is important to use the next line `git remote set-url origin git@github.com:**Github Username**/**File Name**.git` In order to properly connect to github. Then, ssh into github and check that it successfully authenticates. Also verify with `git remove -v`. Create a file with `touch **File Name Here**`, add the file with `git add **File Name Here**`, commit the change with `git commit **File Name Here** -m "**Commit Name Here**"`, and finally, push to origin with `git push`.<br>
+![Image](lab3images/goodstuff.png) <br>
+You can check that the file has been pushed to github by going into the directory's commit history to see the [Link](. 
+![Image](lab3images/git-commit.png)
