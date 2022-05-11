@@ -26,3 +26,12 @@ You can check that the file has been pushed to github by going into the director
 ![Image](lab3images/git-commit.png)
 
 ## Copy whole directories with `scp -r`
+The first step is to go into terminal and navigate to the markdown-parser location on the desktop. In the terminal, type the command `scp -r . **SSH Name**:~/**Name of Repo**`. The `.` after `-r` means to copy the current file. The name after the `/` is the name of the directory on the ieng6 server this file will be copied to. If the name doesn't already exist, a new directory will be made.
+![Image](lab3images/scp-r(1).png)
+After everything is done being copied, log into the ieng6 server using `ls**` and you should see all the files including the new directory.
+![Image](lab3images/scp-copy-success.png)
+Finally, run a combined command that `scp` the file onto ieng6, compliles it, and runs it using `;`. It is important that when doing this, to type the entire path to `javac -cp` and `java -cp` so that no version errors are thrown.
+![Image](lab3images/combo-run-1.png)
+![Image](lab3images/combo-run-2.png)
+
+Finished
