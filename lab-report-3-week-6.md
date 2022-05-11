@@ -24,3 +24,5 @@ The next step is to log into the ieng6 server to commit and push a change to git
 ![Image](lab3images/goodstuff.png) <br>
 You can check that the file has been pushed to github by going into the directory's commit history to see the [Link](https://github.com/Potato0112/SkillDemo1/commit/a8e1a797bcfd1de70503418abc19250ffc9599e6). 
 ![Image](lab3images/git-commit.png)
+
+## Copy whole directories with `scp -r`
