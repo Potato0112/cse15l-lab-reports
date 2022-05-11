@@ -22,5 +22,5 @@ Now that the key is saved, find the private key's location. The key is located i
 ![Image](lab3images/ssh-private-key-loc(12).png)
 The next step is to log into the ieng6 server to commit and push a change to github. For window's users, it is important to use the next line `git remote set-url origin git@github.com:**Github Username**/**File Name**.git` In order to properly connect to github. Then, ssh into github and check that it successfully authenticates. Also verify with `git remove -v`. Create a file with `touch **File Name Here**`, add the file with `git add **File Name Here**`, commit the change with `git commit **File Name Here** -m "**Commit Name Here**"`, and finally, push to origin with `git push`.<br>
 ![Image](lab3images/goodstuff.png) <br>
-You can check that the file has been pushed to github by going into the directory's commit history to see the [Link](. 
+You can check that the file has been pushed to github by going into the directory's commit history to see the [Link](https://github.com/Potato0112/SkillDemo1/commit/a8e1a797bcfd1de70503418abc19250ffc9599e6). 
 ![Image](lab3images/git-commit.png)
