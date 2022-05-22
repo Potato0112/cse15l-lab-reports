@@ -32,6 +32,6 @@ Due to the long error message, here is a standalone shot of the entire message: 
 ![Image](lab4images/snip3error2.png) <br>
 The reviewed case resulted in: <br>
 ![Image](lab4images/sniprev3error.png) <br>
-I think this is going to be an easy fix as it requires the there are many different scenarios of this problem that require major changes to account for. The extra text in the index 2 was because the code didn't detect a `)` so it included everything from `github.com` to `https://cse.ucsd.edu/`. Fixing this error would require the code to detect that there is a syntax error with `)` triggered by the start of the next valid `[]` and `()`.
+I don't think this is going to be an easy fix as it requires the there are many different scenarios of this problem that require major changes to account for. The extra text in the index 2 was because the code didn't detect a `)` so it included everything from `github.com` to `https://cse.ucsd.edu/`. Fixing this error would require the code to detect that there is a syntax error with `)` triggered by the start of the next valid `[]` and `()`.
 
 Finished
